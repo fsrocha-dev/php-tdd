@@ -4,14 +4,14 @@ namespace QueryBuilder\Mysql;
 
 class SelectTest extends \PHPUnit\Framework\TestCase
 {
-	public function testeSelectSemFiltro()
+	public function testSelectSemFiltro()
 	{
 		$select = new Select;
-		$select->setTable('pages');
+		$select->table('pages');
 
 		$actual = $select->getSql();
-		$expected = 'SELECT * FROM pages';
+		$expected = 'SELECT * FROM pages;';
 		
-		$this->assertEquals($actual, $expected);
+		$this->assertEquals($expected, $actual);
 	}
 }

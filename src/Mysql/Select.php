@@ -14,7 +14,6 @@ class Select
 
 	public function getSql() :string
 	{
-
 		$query = 'SELECT * FROM %s;';
 		return sprintf($query, $this->table);
 	}
