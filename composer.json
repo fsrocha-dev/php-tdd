@@ -1,0 +1,13 @@
+{
+    "name": "frankrocha/query-builder",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Frank Rocha",
+            "email": "fsrocha.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^7.4"
+    }
+}
