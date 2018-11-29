@@ -9,5 +9,10 @@
     ],
     "require": {
         "phpunit/phpunit": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "QueryBuilder\\": "src"
+        }
     }
 }
